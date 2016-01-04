@@ -1,0 +1,30 @@
+{
+  "name": "penny-http-errors-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js lib test",
+    "test": "NODE_ENV=testing BLUEBIRD_DEBUG=1 ./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PennyDelivery/penny-http-errors-node.git"
+  },
+  "author": "Chen Liang <code@chen.technology> (http://chen.technology/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PennyDelivery/penny-http-errors-node/issues"
+  },
+  "homepage": "https://github.com/PennyDelivery/penny-http-errors-node#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-things": "^0.2.0",
+    "eslint": "^1.7.3",
+    "mocha": "^2.0.1"
+  }
+}
